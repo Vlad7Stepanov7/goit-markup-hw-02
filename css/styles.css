@@ -1,3 +1,42 @@
 /* основной шрифт Roboto – 400,500,700,900 */
 /* дополнительный шрифт Raleway – 700 */
 /* основной цвет фона #ffffff */
+/* основной цвет для текста #757575 */
+/* дополнительный цвет текста #212121 */
+/* дополнительный цвет #2196F3 */
+:root {
+    --main-background-color: #ffffff;
+    --main-color-text: #757575;
+    --complementary-color-text: #212121;
+    --complementary-color: #2196F3;
+}
+
+body {
+    background-color: var(--main-background-color);
+    color: var(--main-color-text);
+}
+h1 {
+    background-color: #2F303A;
+    color: #ffffff;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: var(--complementary-color-text);
+}
+
+/* header шапка */
+/* логотип */
+.logo {
+    color: var(--complementary-color-text);
+}
+
+.logo-web {
+    color: var(--complementary-color);
+}
+
+.link-header {
+    color: var(--complementary-color-text);
+}

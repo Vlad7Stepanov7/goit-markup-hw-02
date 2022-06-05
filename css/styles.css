@@ -12,6 +12,12 @@
 }
 
 body {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
     background-color: var(--main-background-color);
     color: var(--main-color-text);
 }
@@ -29,18 +35,30 @@ h6 {
 /* header шапка */
 /* ссылки шапки */
 /* логотип */
-.logo-header {
-    color: var(--complementary-color-text);
-}
+.logo-header,
 .logo-footer {
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+}
+.logo-header { 
+    color: #000000;
+}
+.logo-footer {  
 color: #ffffff;
 }
-
 .logo-web {
     color: var(--complementary-color);
 }
 
+
 .link-nav {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
     color: var(--complementary-color-text);
 }
 
@@ -59,13 +77,61 @@ color: var(--complementary-color);
 
 
 /* main */
+/* герой hero */
 .hero {
     background-color: #2F303A;
 }
-/* кнопка под h1 */
+.title {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase
+}
 .btn {
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
     background-color: var(--complementary-color);
     color: #ffffff;
+}
+/* benefits преимущества */
+.benefits {
+
+}
+.title-benefits {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+/*  деятельность activity */
+.title-activity,
+.title-team {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em
+}
+
+/* команда team */
+.title-name {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.team {
+    background-color: #F5F4FA;
 }
  /* footer подвал */
 .footer {

@@ -15,8 +15,7 @@ body {
     background-color: var(--main-background-color);
     color: var(--main-color-text);
 }
-h1 {
-    background-color: #2F303A;
+h1 {  
     color: #ffffff;
 }
 h2,
@@ -28,15 +27,59 @@ h6 {
 }
 
 /* header шапка */
+/* ссылки шапки */
 /* логотип */
-.logo {
+.logo-header {
     color: var(--complementary-color-text);
+}
+.logo-footer {
+color: #ffffff;
 }
 
 .logo-web {
     color: var(--complementary-color);
 }
 
-.link-header {
+.link-nav {
     color: var(--complementary-color-text);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+color: var(--complementary-color);
+}
+
+.link-header {
+    color: var(--main-color-text);
+}
+.link-header:hover,
+.link-header:focus {
+color: var(--complementary-color);
+}
+
+
+/* main */
+.hero {
+    background-color: #2F303A;
+}
+/* кнопка под h1 */
+.btn {
+    background-color: var(--complementary-color);
+    color: #ffffff;
+}
+ /* footer подвал */
+.footer {
+background-color: #2F303A;
+}
+
+.text-footer {
+color: #ffffff;
+} 
+
+.link-footer {
+color: rgba(255, 255, 255, 0.6);
+}
+.link-footer:hover,
+.link-footer:focus {
+color: var(--complementary-color);
 }

@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -33,11 +33,10 @@ h6 {
 }
 
 /* header шапка */
-/* ссылки шапки */
-/* логотип */
+
 .logo-header,
 .logo-footer {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.1;
@@ -65,6 +64,13 @@ color: #ffffff;
 .link-nav:hover,
 .link-nav:focus {
 color: var(--complementary-color);
+}
+
+.studio {
+    color: var(--complementary-color);
+}
+.portfolio {
+    color: var(--complementary-color);
 }
 
 .link-header {
@@ -97,6 +103,7 @@ color: var(--complementary-color);
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
+        cursor: pointer;
     background-color: var(--complementary-color);
     color: #ffffff;
 }
@@ -132,6 +139,26 @@ font-weight: 700;
 }
 .team {
     background-color: #F5F4FA;
+}
+/* main portfolio */
+.btn-portfolio {
+    cursor: pointer;
+   background-color: #F5F4FA; 
+   color: var(--complementary-color-text);
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    background-color: var(--complementary-color);
+    color: #ffffff;
+}
+.main-portfolio .title {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.main-portfolio .text {
+line-height: 1.87;
 }
  /* footer подвал */
 .footer {

@@ -13,8 +13,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         letter-spacing: 0.03em;
     background-color: var(--main-background-color);
@@ -38,7 +36,7 @@ h6 {
     font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
-        line-height: 1.1;
+        line-height: 1.14;
         letter-spacing: 0.03em;
 }
 .logo-header { 
@@ -59,7 +57,7 @@ text-decoration: none;
 
 .link-nav {
     font-weight: 500;
-        line-height: 1.1;
+        line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
     color: var(--complementary-color-text);
@@ -121,7 +119,8 @@ color: var(--complementary-color);
 }
 .title-benefits {
     font-weight: 700;
-        line-height: 1.1;
+    font-size: 14px;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
@@ -156,9 +155,10 @@ font-size: 16px;
 }
 /* main portfolio */
 .btn-portfolio {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
         font-size: 16px;
-        line-height: 1.6;
+        line-height: 1.62;
         text-align: center;
     cursor: pointer;
    background-color: #F5F4FA; 
@@ -176,6 +176,7 @@ font-size: 16px;
         letter-spacing: 0.06em;
 }
 .main-portfolio .text {
+    font-size: 16px;
 line-height: 1.87;
 }
  /* footer подвал */
@@ -184,12 +185,14 @@ background-color: #2F303A;
 }
 
 .text-footer {
-    line-height: 1.7;
+    font-style: normal;
+    line-height: 1.71;
 color: #ffffff;
 } 
 
 .link-footer {
-    line-height: 1.7;
+    font-style: normal;
+    line-height: 1.71;
     text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
 }
